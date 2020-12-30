@@ -8,7 +8,6 @@ class Samochod(ABC):
         self.waga = waga
         self.czesci = czesci
 
-
     @abstractclassmethod
     def dodaj(self, nazwa, cena):
         self.czesci.append(str(nazwa), int(cena))
